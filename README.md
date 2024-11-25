@@ -1,16 +1,39 @@
-# myapp
+# **Aplicación de Inventario**
 
-A new Flutter project.
+## **Descripción**
+Esta aplicación móvil permite gestionar un inventario de productos mediante operaciones CRUD (Crear, Leer, Actualizar y Eliminar). Está diseñada utilizando Flutter para la interfaz y SQLite como base de datos local, garantizando un rendimiento eficiente y disponibilidad sin conexión.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## **Tecnologías Utilizadas**
+- **Flutter**: Framework de desarrollo para aplicaciones móviles multiplataforma.
+- **Dart**: Lenguaje de programación utilizado en Flutter.
+- **SQLite**: Base de datos ligera para almacenamiento local.
+- **sqflite**: Paquete de Flutter para integrar SQLite.
+- **path**: Paquete de Flutter para gestionar rutas del sistema de archivos.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## **Funciones Implementadas**
+1. **Agregar Productos**: Permite agregar un producto especificando su nombre y cantidad.
+2. **Visualizar Productos**: Muestra una lista de productos almacenados en el inventario.
+3. **Actualizar Productos**: Permite modificar la cantidad de un producto existente.
+4. **Eliminar Productos**: Elimina un producto seleccionado del inventario.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## **Pasos para Ejecutar el Proyecto**
+
+### **1. Configuración Inicial**
+1. Asegúrate de tener Flutter instalado en tu computadora. Puedes descargarlo desde [flutter.dev](https://flutter.dev).
+2. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+Estructura del Proyecto
+main.dart: Archivo principal que inicializa la aplicación.
+database/database_helper.dart: Archivo que contiene las funciones para interactuar con SQLite.
+models/producto.dart: Modelo que define la estructura de los productos.
+screens/product_list_screen.dart: Pantalla principal de la aplicación donde se gestiona el inventario.
+Notas
+Asegúrate de tener habilitada la depuración USB si usas un dispositivo físico.
+Puedes personalizar el diseño de la interfaz gráfica y agregar funcionalidades según tus necesidades.
